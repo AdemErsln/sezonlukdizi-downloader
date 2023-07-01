@@ -1,0 +1,20 @@
+{
+  "name": "sezonluk-dizi-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "AdemErsln",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cli-color": "^2.0.3",
+    "easydl": "^1.0.3",
+    "inquirer": "^9.2.7",
+    "progress": "^2.0.3",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
