@@ -1,13 +1,13 @@
-# Proje Adı
+# Sezonlukdizi Downloader
 
-Bu projenin amacı ...
+Sezonluk Dizi, kullanıcılara güncel ve popüler dizi içeriklerini tek bir yerden indirmeyi amaçlayan bir uygulamadır. Bu uygulama sayesinde teker teker içerikleri indirmekle uğraşmadan, istediğiniz dizi bölümlerini kolayca erişebilirsiniz.
 
 ## Gereksinimler
 
 Bu projenin çalışması için aşağıdaki yazılımların yüklü olması gerekmektedir:
 
-- Node.js (sürüm X.X.X)
-- npm (sürüm X.X.X)
+- Node.js (sürüm > 17)
+- npm (sürüm latest)
 
 ## Kurulum
 
@@ -19,32 +19,30 @@ Bu projenin çalışması için aşağıdaki yazılımların yüklü olması ger
 
 Proje bağımlılıkları yüklendikten sonra aşağıdaki adımları izleyerek projeyi kullanabilirsiniz:
 
-1. `config.js` dosyasını açın ve gerekli yapılandırmaları yapın.
-2. Konsolu açın ve projenin kök dizinine gidin.
-3. `npm start` komutunu çalıştırarak projeyi başlatın.
-4. Projenin çalıştığına dair bir onay mesajı alacaksınız.
-5. Projenin belirli bir işlevselliği için kullanılacak komutları veya API isteklerini belirtin.
+1. Aşağıdaki tabloda yer alan argümanları kullanarak komutu çalıştırın:
 
-## Örnekler
+   | Argüman         | Açıklama                              |
+   | --------------- | ------------------------------------- |
+   | Dizinin Adı     | İndirilecek dizinin adı                |
+   | Sezon           | İndirilecek sezon numarası             |
+   | Başlangıç Bölümü | İndirilecek başlangıç bölüm numarası   |
+   | Bitiş Bölümü    | İndirilecek bitiş bölüm numarası       |
+   | Vpn             | VPN kullanımı (0: Türkiye, 1: Türkiye dışı) |
 
-Aşağıda projenin kullanımına dair örnekler bulunmaktadır:
-
-1. Örnek kullanım 1:
+   Örneğin:
    ```bash
-   komut veya kod örneği buraya
-Örnek kullanım 2:
-bash
-Copy code
-komut veya kod örneği buraya
-Katkı
+   node index.js "regular-show" 1 1 1 0
+
+## Katkı
+
 Katkıda bulunmak için aşağıdaki adımları izleyebilirsiniz:
 
-Fork yapın (https://github.com/kullanici/proje/fork)
-Yeni bir özellik dalı oluşturun (git checkout -b ozellik/ozellik-adı)
-Değişikliklerinizi kaydedin (git commit -am 'Yeni özellik: Ozellik Açıklaması')
-Dalınızı ana koda gönderin (git push origin ozellik/ozellik-adı)
-Bir Pull Request (PR) oluşturun
-Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasını inceleyebilirsiniz.
+1. Bu projeyi fork edin: [Fork](https://github.com/AdemErsln/sezonlukdizi-downloader/fork)
+2. Yeni bir özellik dalı oluşturun: `git checkout -b ozellik/ozellik-adı`
+3. Değişikliklerinizi yapın ve kaydedin: `git commit -am 'Yeni özellik: Ozellik Açıklaması'`
+4. Dalınızı ana projeye gönderin: `git push origin ozellik/ozellik-adı`
+5. Bir Pull Request (PR) oluşturun ve değişikliklerinizi açıklayın
 
-css
+Bu projeye katkıda bulunmak için Pull Request göndermekten çekinmeyin. Her türlü katkı ve öneriye açığız. Projeye eklemek istediğiniz özellikleri veya düzeltmeleri belirtmek için bir Issue açabilirsiniz.
+
+Katkılarınızı değerlendirmek ve projeye dahil etmek için elimizden gelenin en iyisini yapacağız. Teşekkür ederiz!
